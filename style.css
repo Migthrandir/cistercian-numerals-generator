@@ -10,4 +10,29 @@ html {
 
 body {
     font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding-top: 40px;
+}
+
+header h2 {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    margin-top: 75px;
+    padding: 20px;
+}
+
+main .elem{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+main #dibujo {
+    border: 1px solid #dfe1e5;
 }

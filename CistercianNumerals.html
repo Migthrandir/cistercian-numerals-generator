@@ -8,14 +8,20 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <canvas id="dibujo" width="400" height="400"></canvas>
-    <p>
-        <input type="number" id="inputnumero" />        
-        <input type="button" value="Dibujar" id="dibujarnumero"/>
-    </p>
-    <p>Introduzca un numero entre el 0 y el 9999 para ver cual es su forma en el sistema numerico Cisterciense.</p>
-    <p id="mensaje"></p>
-    <script src="CistercianNumerals.js">
-    </script>
+    <header>
+        <h2>Generador de Números Cistercienses</h2>
+    </header>
+    <main>
+        <section class="elem">
+            <canvas id="dibujo" width="400" height="400"></canvas>
+        </section>
+        <section class="elem">
+            <input type="number" id="inputnumero" />        
+            <input type="button" value="Dibujar" id="dibujarnumero"/>
+        </section>
+        <p class="elem">Introduzca un número entre el 0 y el 9999 para ver cual es su forma en el sistema númerico Cisterciense.</p>
+        <p id="mensaje" class="elem"></p>
+    </main>
+    <script src="CistercianNumerals.js"></script>
 </body>
 </html>
