@@ -36,7 +36,7 @@ function drawInCistercian()             //funcion que se ejecuta al presionar el
     }
     else
     {
-        mensaje.innerHTML = "Por favor, introduzca un numero valido";
+        mensaje.innerHTML = "Por favor, introduzca un número válido";
     }
 }
 

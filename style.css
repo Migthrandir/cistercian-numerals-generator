@@ -42,6 +42,35 @@ main .elem{
     border: 1px solid #dfe1e5;
 }
 
+.input {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    min-width: 150px;
+    max-width: 300px;   
+    margin: 20px auto;
+    border: 2px solid #dfe1e5;
+    border-radius: 15px;
+}
+
+.input:hover {
+    outline: 1px solid #464646 ;
+}
+
+.input input {
+    border: none;
+    outline: none;
+}
+
+#inputnumero {
+    width: 78%;
+}
+
+#dibujarnumero{
+    width: 18%;
+    background-color: inherit;
+}
+
 .main-text {
     width: auto;
     min-width: 300px;
