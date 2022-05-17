@@ -1,3 +1,7 @@
+:root {
+    --font-color: black;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -12,6 +16,15 @@ body {
     font-size: 1.6rem;
     font-family: Arial, Helvetica, sans-serif;
     background-color: floralwhite;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 header {
@@ -69,6 +82,7 @@ main .elem{
 #dibujarnumero{
     width: 18%;
     background-color: inherit;
+    cursor: pointer;
 }
 
 .main-text {
@@ -85,4 +99,37 @@ main .elem{
 
 #mensaje{
     height: 16px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.footer-left {
+    position: absolute;
+    left: 10px;
+    margin-left: 20px;
+}
+
+.footer-left a{
+    color: var(--font-color);
+}
+
+.footer-right {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 10px;
+    list-style: none;
+}
+
+.footer-right li {
+    margin-right: 20px;
+}
+
+.footer-right a{
+    color: var(--font-color);
 }
