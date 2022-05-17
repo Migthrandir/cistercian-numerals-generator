@@ -11,20 +11,25 @@ html {
 body {
     font-size: 1.6rem;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: floralwhite;
 }
 
 header {
     padding-top: 40px;
 }
 
-header h2 {
+header h1 {
     display: flex;
     justify-content: center;
 }
 
 main {
-    margin-top: 75px;
+    width: auto;
+    max-width: 600px;
+    margin: 50px auto 0 auto;
     padding: 20px;
+    box-shadow: 0px 4px 8px rgb(89 73 30 / 30%);
+    background-color: #fffcf5;
 }
 
 main .elem{
@@ -33,6 +38,22 @@ main .elem{
     margin: 20px;
 }
 
-main #dibujo {
+#dibujo {
     border: 1px solid #dfe1e5;
+}
+
+.main-text {
+    width: auto;
+    min-width: 300px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.main-text p {
+    width: fit-content;
+    margin: 10px auto;
+}
+
+#mensaje{
+    height: 16px;
 }

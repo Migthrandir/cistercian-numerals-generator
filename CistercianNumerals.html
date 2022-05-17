@@ -9,18 +9,20 @@
 </head>
 <body>
     <header>
-        <h2>Generador de Números Cistercienses</h2>
+        <h1>Generador de Números Cistercienses</h1>
     </header>
     <main>
-        <section class="elem">
+        <div class="elem">
             <canvas id="dibujo" width="400" height="400"></canvas>
-        </section>
-        <section class="elem">
+        </div>
+        <div class="elem">
             <input type="number" id="inputnumero" />        
             <input type="button" value="Dibujar" id="dibujarnumero"/>
-        </section>
-        <p class="elem">Introduzca un número entre el 0 y el 9999 para ver cual es su forma en el sistema númerico Cisterciense.</p>
-        <p id="mensaje" class="elem"></p>
+        </div> 
+        <div class="main-text">
+            <p>Introduzca un número entre el 0 y el 9999 para ver cual es su forma en el sistema númerico Cisterciense.</p>
+            <p id="mensaje"></p>
+        </div>
     </main>
     <script src="CistercianNumerals.js"></script>
 </body>
